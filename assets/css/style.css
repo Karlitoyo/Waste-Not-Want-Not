@@ -1,5 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette:100,200,300,400,500,600,700&display=swap');
 
+/*---------------------------------------Nav*/
+
+.ui-menu-color-home {
+    background-color: rgba(2, 4, 6, 0.4);
+}
+
+.ui-menu-color-about {
+    background-color: rgba(39, 65, 92, 0.4);
+}
+
+.ui-menu-color-contact {
+    background-color: rgba(187, 167, 53, 0.4);
+}
+
+.ui-menu-color-get-involved {
+    background-color: rgba(193, 105, 219, 0.4);
+}
+
 /*---------------------------------------heading*/
 
 header {
@@ -9,12 +27,9 @@ header {
 }
 
 .logo {
-    background-position: left;
     margin-top: 10px;
-}
-
-.heading {
-
+    margin-left: 200px;
+    margin-bottom: 0;
 }
 
 .logo {
@@ -41,3 +56,47 @@ header {
     to{
         transform: scale(1.1);
     }
+}
+
+.list-inline {
+    margin-top: 10px;
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right:0;
+}
+
+
+/*------------------------------------search*/
+
+.search input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    margin-left: 150px;
+}
+
+.search button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    margin-left: 150px;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+}
