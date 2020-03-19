@@ -33,6 +33,7 @@ header {
     margin: 0;
     padding: 0;
     border:0;
+    overflow: hidden;
 }
 
 .waste-not {
@@ -47,7 +48,7 @@ header {
     font-size: 36px;
     text-align: center;
     color: #fafafa;
-    text-shadow: 23px -23px 53px #a8a8a8;
+    margin-bottom: 20px;
 }
 
 @media screen and (max-width:1800px) {
@@ -55,10 +56,6 @@ header {
         width:65%;
         text-align: center;
         margin: 0 auto;
-}
-
-#hero-outer {
-
 }
 
 #hero-image {
@@ -70,27 +67,26 @@ header {
     -o-background-size: cover;
     background-size: cover;
 }
-}
 
 .menucontainer {
     font-size: 0;
-    overflow: hidden;
 }
 
-#nav li {
-    font-size: 14px;
+#nav-bar li {
+    font-size: 18px;
     padding: 0;
+    font-weight: 500;
 }
 
-#nav a:hover {
-    border-bottom: 1px solid #fafafa;
+#nav-bar span:hover {
+    text-decoration: underline;
     margin: 0 auto;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
 }
 
-.active {
-    border-bottom: 1px solid #fafafa;
+.active span{
+    text-decoration: underline;
     margin: 0 auto;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -216,6 +212,7 @@ input {
     max-width: 400px;
     position: relative;
     margin: auto;
+    margin-top: 20px;
 }
 
 .text-input {
@@ -266,4 +263,36 @@ footer {
         column-count: 2;
         max-width: 100%;
     }
+}
+
+/*----------------------------------------Catalog*/
+
+#split {
+    clear: both;
+    height: 50%;
+    position: absolute;
+    overflow-x: hidden;
+}
+
+.centered {
+    left: 50%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.centered img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.centered p {
+    font-family: "Courgette", sans-serif;
+    font-size: 40px;
+}
+
+.centered h2 {
+    font-family: "Courgette", sans-serif;
+    font-size: 40px;
+    text-decoration: underline;
 }
