@@ -33,3 +33,19 @@ We continually tweak and adjust this template to help give you the best experien
 --------
 
 Happy coding!
+
+
+
+**Search bar**
+
+https://www.mockplus.com/blog/post/search-bar-design
+
+https://codepen.io/AlbertFeynman/pen/BPvzWZ
+
+https://codepen.io/sebastianpopp/pen/myYmmy
+
+**nEOMORPHISM**
+
+https://uxplanet.org/neumorphism-in-user-interface-tutorial-c353698ac5c0
+
+https://neumorphism.io/#808080
