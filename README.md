@@ -1,50 +1,59 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+Waste Not Want Not -- ReadMe
 
-Welcome Karlitoyo,
+This website is designed to allow users to upload items they have within their household or in their possession.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+The planned final form of the Website is to be an auction sytle platform with charitable donations built into the 
+user experience, partner charities recieve a donation from either of the individual seller or the auction site 
+administrators monthly / yearly donation as a percentage of revenue.
 
-## Gitpod Reminders
+The website is broken down into 4 main pages, as detailed below -
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+"Home, Catalogue, Get Involved, Contact"
 
-`python3 -m http.server`
+---Home---
 
-A blue button should appear to click: *Expose*,
+The home page is a simplifies user interface providing a simple search bar which is planned to link to the Catalogue 
+page. The UX has been simplified to allow for ease of use and to encourage users to search the Catalogue. In future 
+versions I would anticipate top items being placed below the search bar for quick user access to items in demand within
+the Catalogue.
 
-Another blue button should appear to click: *Open Browser*.
+---Catalogue---
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+The Catalogue page is the main repository of items available on the website. Users can browse the Catalogue of available
+items and in planned future versions view prices related to individual items and place bids as auctions are live.
 
-A blue button should appear to click: *Expose*,
+---Get Involved---
 
-Another blue button should appear to click: *Open Browser*.
+The Get Involved section allows users to register on the website and provide a brief description of the item they 
+wish to upload to the site. In planned future versions an image upload section will be active allowing upload of
+items upon successfull registration.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+---Contact---
 
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+The Contact section provides useful contact information for queries users may have including an e-mail address
+and contact number. This section also provides a brief synopsis of the individuals behind the website.
 
 
+---Coding language---
+
+Within my code I have used HTML, CSS, JS, and Bootstrap. I have utilised a number of resources to complete my 
+first milestone project most notably the book "Sams Teach Yourself - HTML,CSS,JavaScript (third edition). 
+I have also referenced the sites - W3 Schools, Stack Overflow, Slack, FreeCodeCamp. For my search bar I have linked
+the specific link below to the creator. I customised the CSS to reflect how I wished it to look. The code below will
+produce a magnifying icon however I ammended this to produce the circle shown within my home page also changing colors
+as appropriate.
+
+Neomorphism was the initial design concept for the UI. My navigation bar is an ode to this sytle however due to general
+restrictions on my current design capabilities and color scheme this was rolled back. I have provided links below to
+both.
 
 **Search bar**
 
 https://www.mockplus.com/blog/post/search-bar-design
 
-https://codepen.io/AlbertFeynman/pen/BPvzWZ
-
 https://codepen.io/sebastianpopp/pen/myYmmy
 
-**nEOMORPHISM**
+**Neomorphism**
 
 https://uxplanet.org/neumorphism-in-user-interface-tutorial-c353698ac5c0
 
