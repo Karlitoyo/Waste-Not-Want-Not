@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette:100,200,300,400,500,600,700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Inconsolata:700');
+@import url('https://fonts.googleapis.com/css?family=Sen:100,200,300,400,500,600,700&display=swap');
 
 /*---------------------------------------Colors*/
 
@@ -208,8 +208,8 @@ input {
 .form-section {
     clear: both;
     background: #fafafa;
-    height: 650px;
-    max-width: 400px;
+    height: 910px;
+    max-width: 900px;
     position: relative;
     margin: auto;
     margin-top: 20px;
@@ -260,12 +260,12 @@ footer {
 
 @media screen and (max-width: 500px) {
     #photos {
-        column-count: 2;
+        column-count: 1;
         max-width: 100%;
     }
 }
 
-/*----------------------------------------Catalog*/
+/*----------------------------------------Contact*/
 
 #split {
     clear: both;
@@ -287,12 +287,50 @@ footer {
 }
 
 .centered p {
-    font-family: "Courgette", sans-serif;
+    font-family: "Sen", sans-serif;
     font-size: 40px;
 }
 
 .centered h2 {
-    font-family: "Courgette", sans-serif;
-    font-size: 40px;
+    font-family: "Sen", sans-serif;
+    font-size: 45px;
     text-decoration: underline;
+    font-weight: 400;
+}
+
+.open-button {
+  background-color: #555;
+  color: #fafafa;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 200px;
+}
+
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: black;
+  color: #fafafa;
+}
+
+.form-container .cancel {
+  background-color: red;
+}
+
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
 }

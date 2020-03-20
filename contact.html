@@ -49,7 +49,7 @@
                 <div class="centered">
                     <img src="assets/contact-pics/Oliver.jpg" alt="Oliver Timmins">
                     <h2>Oliver Timmins</h2>
-                            <p>Oliver is the founder of Wate Not Want Not. With years of experience with machinery and auctions
+                            <p>Oliver is the founder of 'Waste Not Want Not'. With years of experience with machinery and auctions
                                 Oliver has been driven to create a method for charities to access much needed donations through the community. 
                                 Waste Not Want Not is a passion project which enables users to donate a percentage of the sale proceeds to a partner charity
                                 of the sellers choosing.</p>
@@ -64,7 +64,22 @@
                                 to the service.</p>
                 </div>
             </div>
+            <button class="open-button" onclick="openForm()">Contact Information</button>
+            <div class="form-popup" id="myForm">
+                <form class="form-container">
+                    <h1>Contact</h1>
+
+                    <label for="email"><b>Email:</b></label>
+                    <p> joe.bloggs@gmail.com</p>
+
+                    <label for="psw"><b>Phone:</b></label>
+                    <p> 087-1234567</p>
+                    
+                    <button type="btn" class="btn cancel" onclick="closeForm();return false">Close</button>
+                </form>
+            </div>
 </header> 
+<script src="javascript/index.js"></script>
     </body>
     <footer>
         <ul class="social-networks">
