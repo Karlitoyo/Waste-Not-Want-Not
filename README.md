@@ -1,4 +1,5 @@
-Waste Not Want Not -- ReadMe
+
+**Waste Not Want Not** - ***ReadMe***
 
 This website is designed to allow users to upload items they have within their household or in their possession.
 
