@@ -20,7 +20,9 @@ the Catalogue.
 ---Catalogue---
 
 The Catalogue page is the main repository of items available on the website. Users can browse the Catalogue of available
-items and in planned future versions view prices related to individual items and place bids as auctions are live.
+items and in planned future versions view prices related to individual items and place bids as auctions are live. 
+The responsiveness of multiple images which flip to reveal price , name and description proved challenging however
+it is good for tablet and desktop monior + large monitor.
 
 ---Get Involved---
 
