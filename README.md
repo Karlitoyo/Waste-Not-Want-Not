@@ -46,6 +46,9 @@ the specific link below to the creator. I customised the CSS to reflect how I wi
 produce a magnifying icon however I ammended this to produce the circle shown within my home page also changing colors
 as appropriate.
 
+JS is used for the contact page which produces a pop up for email and contact information. This was initially sourced
+through W3schools and then amended to fit purpose.
+
 Neomorphism was the initial design concept for the UI. My navigation bar is an ode to this sytle however due to general
 restrictions on my current design capabilities and color scheme this was rolled back. I have provided links below to
 both.
@@ -61,3 +64,7 @@ https://codepen.io/sebastianpopp/pen/myYmmy
 https://uxplanet.org/neumorphism-in-user-interface-tutorial-c353698ac5c0
 
 https://neumorphism.io/#808080
+
+**Contact JS**
+
+https://www.w3schools.com/howto/howto_js_popup_form.asp
