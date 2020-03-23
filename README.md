@@ -2,10 +2,12 @@
 **Waste Not Want Not** - ***ReadMe***
 
 This website is designed to allow users to upload items they have within their household or in their possession.
+The ultimate goal is to link the search bar to the catalogue and to have an auction section which will manage live 
+bids on items.
 
-The planned final form of the Website is to be an auction sytle platform with charitable donations built into the 
-user experience, partner charities recieve a donation from either of the individual seller or the auction site 
-administrators monthly / yearly donation as a percentage of revenue.
+The Website is to be an auction sytle platform with charitable donations built into the user experience, partner 
+charities recieve a donation from either of the individual seller or the auction site administrators monthly / yearly 
+donation as a percentage of revenue.
 
 The website is broken down into 4 main pages, as detailed below -
 
@@ -22,7 +24,7 @@ the Catalogue.
 
 The Catalogue page is the main repository of items available on the website. Users can browse the Catalogue of available
 items and in planned future versions view prices related to individual items and place bids as auctions are live. 
-The responsiveness of multiple images which flip to reveal price , name and description proved challenging however
+The responsiveness of multiple images which flip to reveal price , name, and description proved challenging however
 it is good for tablet and desktop monior + large monitor.
 
 ---Get Involved---
@@ -34,7 +36,9 @@ items upon successfull registration.
 ---Contact---
 
 The Contact section provides useful contact information for queries users may have including an e-mail address
-and contact number. This section also provides a brief synopsis of the individuals behind the website.
+and contact number. This section also provides a brief synopsis of the individuals behind the website. I made use of JS 
+in this section to provide a pop up box on the bottom right hand section of the page. This hides the information 
+unless a user specifically requires this information for genuine requets.
 
 
 ---Coding language---
