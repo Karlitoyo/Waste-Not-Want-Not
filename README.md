@@ -72,3 +72,12 @@ https://neumorphism.io/#808080
 **Contact JS**
 
 https://www.w3schools.com/howto/howto_js_popup_form.asp
+
+**W3 Schools**
+
+https://www.w3schools.com/
+
+
+**MDN**
+
+https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5
