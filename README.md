@@ -3,8 +3,8 @@
 
 
 This website is designed to allow users to upload items they have within their household or in their possession.
-The ultimate goal is to link the search bar to the catalogue and to have an auction section which will manage live 
-bids on items.
+The final site will be designed as an auction site which will manage live bids on items with partner or designated
+charities recieving percentage donations from the sale of items / administration fees based on user uptake.
 
 
 The website development and purpose has been broken down, into the detailed sections below -
