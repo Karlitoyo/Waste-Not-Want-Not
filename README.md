@@ -10,24 +10,22 @@ bids on items.
 The website is broken down into 4 main pages, as detailed below -
 
   > ## Contents
- - *[UX] (#ux)
- -
 
 
-*[Features](https://github.com/Karlitoyo/Waste-Not-Want-Not#UX)
+* [Features](https://github.com/Karlitoyo/Waste-Not-Want-Not#UX)
  - [Users](https://github.com/Karlitoyo/Waste-Not-Want-Not#Users)
  - [Strategy](https://github.com/Karlitoyo/Waste-Not-Want-Not#Strategy)
  - [Scope](https://github.com/Karlitoyo/Waste-Not-Want-Not#Scope)
  - [Structure](https://github.com/Karlitoyo/Waste-Not-Want-Not#Structure)
  - [Skeleton](https://github.com/Karlitoyo/Waste-Not-Want-Not#Skeleton)
  - [Surface](https://github.com/Karlitoyo/Waste-Not-Want-Not#Surface)
- *[Development](https://github.com/Karlitoyo/Waste-Not-Want-Not#Development)
+ * [Development](https://github.com/Karlitoyo/Waste-Not-Want-Not#Development)
  - [Current-Features](https://github.com/Karlitoyo/Waste-Not-Want-Not#Current-Features)
  - [Further-Development](https://github.com/Karlitoyo/Waste-Not-Want-Not#Further-Development)
- *[Technologies-Utilised](https://github.com/Karlitoyo/Waste-Not-Want-Not#Technologies-Utilised)
- *[Testing](https://github.com/Karlitoyo/Waste-Not-Want-Not#Testing)
- *[Deployment](https://github.com/Karlitoyo/Waste-Not-Want-Not#Deployment)
- *[Credits/Media](https://github.com/Karlitoyo/Waste-Not-Want-Not#Credits/Media)
+ * [Technologies-Utilised](https://github.com/Karlitoyo/Waste-Not-Want-Not#Technologies-Utilised)
+ * [Testing](https://github.com/Karlitoyo/Waste-Not-Want-Not#Testing)
+ * [Deployment](https://github.com/Karlitoyo/Waste-Not-Want-Not#Deployment)
+ * [Credits/Media](https://github.com/Karlitoyo/Waste-Not-Want-Not#Credits/Media)
  - [Acknowledgements](https://github.com/Karlitoyo/Waste-Not-Want-Not#Acknowledgements)
 
 
@@ -139,14 +137,14 @@ live and being connected to a server the 'Get-Involved' section will also have a
 
 For the project I utilised -
 
-###Code###
+- <br>Code
 
 - HTML
 - CSS
 - Java script
 - [Bootstrap] (https://getbootstrap.com/)
 
-###Externals###
+<br>Externals
 
 - [Font Awesome](fontawesome.com)
 - [Google Fonts](https://fonts.google.com/)
@@ -154,12 +152,12 @@ For the project I utilised -
 - [CSS Validator](https://validator.w3.org/)
 - [MDN](https://developer.mozilla.org/en-US/)
 
-###Learned from###
+<br>Learned from
 
 - [W3schools](https://www.w3schools.com/)
 - Sam's Teach Yourself - HTML, CSS, Javascript
 
-**Neomorphism**
+<br>Neomorphism
 
 Neomorphism was the initial design concept for the UI. My navigation bar is an ode to this sytle however due to general
 restrictions on my current design capabilities and color scheme this was rolled back. I have provided links below to
