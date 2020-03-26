@@ -13,20 +13,20 @@ The website is broken down into 4 main pages, as detailed below -
 
 
 * [Features](https://github.com/Karlitoyo/Waste-Not-Want-Not#UX)
- - [Users](https://github.com/Karlitoyo/Waste-Not-Want-Not#Users)
- - [Strategy](https://github.com/Karlitoyo/Waste-Not-Want-Not#Strategy)
- - [Scope](https://github.com/Karlitoyo/Waste-Not-Want-Not#Scope)
- - [Structure](https://github.com/Karlitoyo/Waste-Not-Want-Not#Structure)
- - [Skeleton](https://github.com/Karlitoyo/Waste-Not-Want-Not#Skeleton)
- - [Surface](https://github.com/Karlitoyo/Waste-Not-Want-Not#Surface)
+    - [Users](https://github.com/Karlitoyo/Waste-Not-Want-Not#Users)
+    - [Strategy](https://github.com/Karlitoyo/Waste-Not-Want-Not#Strategy)
+    - [Scope](https://github.com/Karlitoyo/Waste-Not-Want-Not#Scope)
+    - [Structure](https://github.com/Karlitoyo/Waste-Not-Want-Not#Structure)
+    - [Skeleton](https://github.com/Karlitoyo/Waste-Not-Want-Not#Skeleton)
+    - [Surface](https://github.com/Karlitoyo/Waste-Not-Want-Not#Surface)
  * [Development](https://github.com/Karlitoyo/Waste-Not-Want-Not#Development)
- - [Current-Features](https://github.com/Karlitoyo/Waste-Not-Want-Not#Current-Features)
- - [Further-Development](https://github.com/Karlitoyo/Waste-Not-Want-Not#Further-Development)
+    - [Current-Features](https://github.com/Karlitoyo/Waste-Not-Want-Not#Current-Features)
+    - [Further-Development](https://github.com/Karlitoyo/Waste-Not-Want-Not#Further-Development)
  * [Technologies-Utilised](https://github.com/Karlitoyo/Waste-Not-Want-Not#Technologies-Utilised)
  * [Testing](https://github.com/Karlitoyo/Waste-Not-Want-Not#Testing)
  * [Deployment](https://github.com/Karlitoyo/Waste-Not-Want-Not#Deployment)
  * [Credits/Media](https://github.com/Karlitoyo/Waste-Not-Want-Not#Credits/Media)
- - [Acknowledgements](https://github.com/Karlitoyo/Waste-Not-Want-Not#Acknowledgements)
+    - [Acknowledgements](https://github.com/Karlitoyo/Waste-Not-Want-Not#Acknowledgements)
 
 
   > # UX
