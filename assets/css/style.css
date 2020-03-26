@@ -257,6 +257,10 @@ footer {
     width: 100%;
 }
 
+.row {
+    display:block;
+}
+
 /*--------------------------------------------------------- Image flip for Catalogue page, taken from W3 Schools and amended for purpose*/
 
 .flip-box {
