@@ -7,7 +7,7 @@ The ultimate goal is to link the search bar to the catalogue and to have an auct
 bids on items.
 
 
-The website is broken down into 4 main pages, as detailed below -
+The website development and purpose has been broken down, into the detailed sections below -
 
   > ## Contents
 
@@ -208,7 +208,7 @@ I navigated to my Github account, on the top left of the screen I selected my "W
 repository, I then deployed through the settings section by and scrolling to the 'Github Pages'
 section roughly 3/4 of the way down the page. Selected my master branch and my page was presented to me as
 
-- [Waste-Not-Want-Not] (https://karlitoyo.github.io/Waste-Not-Want-Not/)
+- Waste-Not-Want-Not : (https://karlitoyo.github.io/Waste-Not-Want-Not/)
 
 
 > # Credits
