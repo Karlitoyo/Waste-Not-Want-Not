@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="full-height">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" type="text/css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css"/>
@@ -12,40 +15,64 @@
 </head>
 <body>
     <header>
-        <section>
-            <div class="row">
-                <div class="col">
-                    <div id="hero-image">
-                    <img src="assets/background/country.jpg" width="100%" height="300px">
-                    </div>
-                </div>
-            </div>
-                <div class="row no-gutters">
-                    <div class="col">
-                        <nav>
-                            <ul id="nav-bar" class="list-inline menucontainer">
-                                <li class="col-6 col-sm-3 ui-menu-color-home list-inline-item box">
-                                <a href="index.html" class="hvr-icon-grow"><i class="fa fa-home hvr-icon" aria-hidden="true"></i><span>Home</span></a>
+<!---------------------------------------------------------------------------Navigation Bar------>
+        <nav class ="navbar navbar-expand-lg bg-dark navbar-dark">
+                        <a class="navbar-brand" href="index.html"><strong>Waste Not Want Not</strong></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
                                 </li>
-                                <li class="col-6 col-sm-3 ui-menu-color-catalogue list-inline-item box">
-                                <a href="catalogue.html" class="hvr-icon-grow"><i class="fa fa-list-alt hvr-icon" aria-hidden="true"></i><span>Catalogue</span></a>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="catalogue.html">Catalogue</a>
                                 </li>
-                                <li class="col-6 col-sm-3 ui-menu-color-get-involved list-inline-item box">
-                                <a href="get-involved.html" class="hvr-icon-grow"><i class="fa fa-briefcase hvr-icon" aria-hidden="true"></i><span>Get Involved</span></a>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="get-involved.html">Get Involved</a>
                                 </li>
-                                <li class="col-6 col-sm-3 ui-menu-color-contact list-inline-item box">
-                                <a href="contact.html" class="active hvr-icon-grow"><i class="fa fa-phone hvr-icon" aria-hidden="true"></i><span>Contact</span></a>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="contact.html">Contact</a>
                                 </li>
                             </ul>
-                        </nav>
+                        </div>
+        </nav>
+<!---------------------------------------------------------------------------Slide Show Hero Image------>
+        <section>
+            <div class="slideshow-container">
+                    <div class="mySlides fade-in">
+                        <img src="assets/hero-images/moped.png" width="100%" height="300px">
+                    
                     </div>
+                <div class="mySlides fade-in">
+                        <img src="assets/hero-images/telescope.jpg" width="100%" height="300px">
+                
                 </div>
+                <div class="mySlides fade-in">
+                        <img src="assets/hero-images/guitar.jpg" width="100%" height="300px">
+                </div>
+
+                                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                            <br>
+
+                            <div style="text-align:center">
+                                <span class="dot" onclick="currentSlide(1)"></span>
+                                <span class="dot" onclick="currentSlide(2)"></span>
+                                <span class="dot" onclick="currentSlide(3)"></span>  
+                            </div>                        
         </section>
+    </header>
+<!---------------------------------------------------------------------------Title Section------>
         <section>
             <div class="row col-md-12 waste-not">
                 <h1 id="logo">Waste Not Want Not</h1>
             </div>
         </section>
+<!---------------------------------------------------------------------------About------>
         <div id="row split">
             <div class="centered">
                 <img src="assets/contact-pics/Oliver.jpg" alt="Oliver Timmins">
@@ -65,6 +92,7 @@
                     to the service.</p>
             </div>
         </div>
+<!---------------------------------------------------------------------------Pop-up Contact JS------>
             <button class="open-button" onclick="openForm()">Contact Information</button>
             <div class="form-popup" id="myForm">
                 <form class="form-container">
@@ -79,9 +107,11 @@
                     <button type="btn" class="btn cancel" onclick="closeForm();return false">Close</button>
                 </form>
             </div>
-    </header> 
+<!---------------------------------------------------------------------------JS Script------>
     <script src="javascript/index.js"></script>
 </body>
+<br>
+<!---------------------------------------------------------------------------Footer------>
     <footer>
         <ul class="social-networks">
             <li><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li>
