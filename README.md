@@ -140,7 +140,7 @@ For the project I utilised -
 - HTML
 - CSS
 - Java script
-- [Bootstrap] (https://getbootstrap.com/)
+- [Bootstrap](https://getbootstrap.com/)
 
 
 - [Font Awesome](fontawesome.com)
