@@ -195,7 +195,7 @@ troublesome due to each item within the 'Catalogue flipping to reveal item price
 Multiple iterations of the form element were tested with the final form being chosen due to it being
 simplistic and user friendly with  awhite background and a large 'item description' section.
 
-The site was tested on Google Chrome, Opera, Firefox, GalaxyS8,
+The site was tested on Google Chrome, Opera, Firefox,IE10, Large screen monitor, Laptop, Desktop, Mobile (GalaxyS8).
 
 HTML Validator has shown some errors within the HTML code itself relating to the sizing of the slide show hero images
 this was unavoidable and in line with expectations. Code also states errors with unclosed "br" tags and some Further
@@ -220,6 +220,18 @@ section roughly 3/4 of the way down the page. Selected my master branch and my p
 Can be achieved by selecting the green highlighted button which states - "Clone or Download" via the 
 webpage: (https://github.com/Karlitoyo/Waste-Not-Want-Not) this will give the option of downloading a .zip file 
 or opening in desktop an option to close using HTTP is also given for cloning and running project locally.
+
+**Version-Control**
+
+I have tested the website on a number of different systems as outlined in the development section. I initially 
+tested on a large screen and laptop and mobile. Using the large screen I changed the browser windown size from 
+large to small repeatidly to ensure Media Queries were woring corresctly and to mitigate page repsonse issues.
+Unfortunately desktop screens which I mistakenly assumed would be included were not and caused errors upon my 
+initial submission. This has now been identified and resolved. A further issue I encountered was my catalogue 
+section on IE edge which was setting display to "ms flex wrap" causing the grid system to become unresponsive.
+This was fixed thorugh an update to the CSS however upon running on IE10 the catalogue item comments which 
+should show upon the image flip are not showing this was not a problem on Microsoft Edge. Unfortunately I was 
+unable to remedy the IE10 bug.
 
 
 > # User-Stories
