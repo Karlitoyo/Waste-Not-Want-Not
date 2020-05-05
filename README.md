@@ -216,6 +216,7 @@ section roughly 3/4 of the way down the page. Selected my master branch and my p
 - Waste-Not-Want-Not : (https://karlitoyo.github.io/Waste-Not-Want-Not/)
 
 **Cloning**
+
 Can be achieved by selecting the green highlighted button which states - "Clone or Download" via the 
 webpage: (https://github.com/Karlitoyo/Waste-Not-Want-Not) this will give the option of downloading a .zip file 
 or opening in desktop an option to close using HTTP is also given for cloning and running project locally.
