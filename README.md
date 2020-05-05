@@ -25,6 +25,7 @@ The website development and purpose has been broken down, into the detailed sect
  * [Technologies-Utilised](https://github.com/Karlitoyo/Waste-Not-Want-Not#Technologies-Utilised)
  * [Testing](https://github.com/Karlitoyo/Waste-Not-Want-Not#Testing)
  * [Deployment](https://github.com/Karlitoyo/Waste-Not-Want-Not#Deployment)
+ * [User-Stories](https://github.com/Karlitoyo/Waste-Not-Want-Not#User-Stories)
  * [Credits/Media](https://github.com/Karlitoyo/Waste-Not-Want-Not#Credits/Media)
     - [Acknowledgements](https://github.com/Karlitoyo/Waste-Not-Want-Not#Acknowledgements)
 
@@ -194,7 +195,15 @@ troublesome due to each item within the 'Catalogue flipping to reveal item price
 Multiple iterations of the form element were tested with the final form being chosen due to it being
 simplistic and user friendly with  awhite background and a large 'item description' section.
 
-The site was tested on Google Chrome, Opera, Firefox, GalaxyS8, 
+The site was tested on Google Chrome, Opera, Firefox, GalaxyS8,
+
+HTML Validator has shown some errors within the HTML code itself relating to the sizing of the slide show hero images
+this was unavoidable and in line with expectations. Code also states errors with unclosed "br" tags and some Further
+errors with regard to HTML comments. Javascript "btn" tag also shows as an error however function is unaffected. An interesting
+error is the div id="row split" which I used to split the contact page into two seperate sections for about information.
+Fully functional however it states this must not contain white space. However removing the css style .split has about
+negative effect of function of website and it is something I am unable to explain after much testing as I am aware only
+only ID attribute can be assigned to div elements..
 
 ## Deployment
 
@@ -205,6 +214,30 @@ repository, I then deployed through the settings section by and scrolling to the
 section roughly 3/4 of the way down the page. Selected my master branch and my page was presented to me as
 
 - Waste-Not-Want-Not : (https://karlitoyo.github.io/Waste-Not-Want-Not/)
+
+- Cloning can be achieved by selecting the green highlighted button which states - "Clone or Download" via the 
+webpage: (https://github.com/Karlitoyo/Waste-Not-Want-Not) this will give the option of downloading a .zip file 
+or opening in desktop an option to close using HTTP is also given for cloning and running project locally.
+
+
+> # User-Stories
+
+## First-User
+Initial feedback was positive for the purposes of the assignment however requests were made for further content 
+visable on site which has been noted however this will be more realistic upon live users creating content through 
+upload.
+
+## Second-User
+Second user requested for clearer hero images however again this was due to the portrait orientation of my upload
+which was then edited in a picture editor 'GIMP'. Upon reflection it may have been easier to re-take photographs 
+for the hero section however the functionality was priority over content as site is not live currently.
+
+## Developer comments
+The final site will have a working search bar linked to the catalogue, I also wish to encorporate a bidding service
+this will take time and development. I am currently undertaking the Javascript section of the course and API's in
+particular. I am looking forward expanding my knowledge and implementing what I learn to this site going forward.
+Although my home page is minamalistic this was the intention as I wish for users to visit the site and search the 
+catalogue of items as a priority.
 
 
 > # Credits

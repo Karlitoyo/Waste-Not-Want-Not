@@ -151,6 +151,13 @@ animation: fadeIn ease 5s;
     text-align:center;
 }
 
+.cntr h2 {
+    color: #fafafa;
+    font-family: "Courgette", sans-serif;
+    margin-top: 30px;
+    text-align:center;
+}
+
 .search {
 	display: inline-block;
 	position: relative;
@@ -247,7 +254,13 @@ footer {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: #A9A9A9;
+    color: #343a40;
+}
+
+hr {
+    width: 50%;
+    color: #343a40;
+    border-top: .5px solid;
 }
 
 /*---------------------------------------------------------Catalogue*/
