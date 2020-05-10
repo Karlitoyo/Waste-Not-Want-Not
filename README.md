@@ -231,7 +231,8 @@ initial submission. This has now been identified and resolved. A further issue I
 section on IE edge which was setting display to "ms flex wrap" causing the grid system to become unresponsive.
 This was fixed thorugh an update to the CSS however upon running on IE10 the catalogue item comments which 
 should show upon the image flip are not showing this was not a problem on Microsoft Edge. Unfortunately I was 
-unable to remedy the IE10 bug.
+unable to remedy the IE10 bug. In the final version of the site the bottom social network links are not live
+as the do not direct currently to related waste not want not sites.
 
 
 > # User-Stories

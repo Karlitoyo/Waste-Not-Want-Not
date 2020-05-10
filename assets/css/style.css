@@ -42,7 +42,7 @@ header {
 
 .slideshow-container {
   max-width: 100%;
-  max-height:300px;
+  max-height:400px;
   position: relative;
   margin: auto;
 }
@@ -86,37 +86,36 @@ header {
   background-color: #717171;
 }
 
-.fade-in {
-animation: fadeIn ease 5s;
--webkit-animation: fadeIn ease 5s;
--moz-animation: fadeIn ease 5s;
--o-animation: fadeIn ease 5s;
--ms-animation: fadeIn ease 5s;
+#slide {
+    position: absolute;
+    left: -100px;
+    width: 100px;
+    height: 100px;
+    background: blue;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 0.5s forwards;
+    animation-delay: 2s;
 }
 
-@keyframes fadeIn {
-0% {opacity:0;}
-100% {opacity:1;}
+@-webkit-keyframes slide {
+    100% { left: 0; }
 }
 
-@-moz-keyframes fadeIn {
-0% {opacity:0;}
-100% {opacity:1;}
+@keyframes slide {
+    100% { left: 0; }
 }
 
-@-webkit-keyframes fadeIn {
-0% {opacity:0;}
-100% {opacity:1;}
+@-moz-keyframes slide {
+    100% { left: 0; }
 }
 
 @-o-keyframes fadeIn {
-0% {opacity:0;}
-100% {opacity:1;}
+    100% { left: 0; }
 }
 
 @-ms-keyframes fadeIn {
-0% {opacity:0;}
-100% {opacity:1;}
+    100% { left: 0; }
 }
 
 /*---------------------------------------------------------Navigation*/
