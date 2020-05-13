@@ -98,12 +98,6 @@ Wireframes for the main navigation pages can be found below -
 
 - [Wireframes](Balsamiq-Wireframes/Waste-Not-Want-Not.png)
 
-Home 
-Catalogue
-Get Involved
-Contact
-
-
 ## Surface
 
 The colour scheme was intended to be eye catching and vibrant. The hero-image was initially (and still planned to be)
