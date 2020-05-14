@@ -127,6 +127,13 @@ It is intended to link the search bar within the 'Home Page' section to the Cata
 section. It is also my intention to re-place the hero-image with a alternating selection of most-desired items'. Upon going 
 live and being connected to a server the 'Get-Involved' section will also have an image upload upon successful 'Sign-up'.
 
+## User Feedback
+Initial feedback was positive for the purposes of the assignment however requests were made for further content 
+visable on site which has been noted however this will be more realistic upon live users creating content through 
+upload.
+Second user requested for clearer hero images however again this was due to the portrait orientation of my upload
+which was then edited in a picture editor 'GIMP'. Upon reflection it may have been easier to re-take photographs 
+for the hero section however the functionality was priority over content as site is not live currently.
 
 ## Technologies-Utilised
 
@@ -202,8 +209,8 @@ repository.
 
 In my initial version I took a sytle from neomorphism as mentioned previously and styled the navigation to work
 within a neomorphism style website. Upon review of the colour scheme and mechanics of the website I re-developed 
-the design using a more bootstrap oriented approach. In the second version (re-design) I too the navigation from
-bootstrap and also the carousel style hero slideshow. This is fundamentally a better design and ease of programming
+the design using a more bootstrap oriented approach. In the second version (re-design) I incorporated the navigation
+from bootstrap and also the carousel style hero slideshow. This is fundamentally a better design and ease of programming
 is straight forward. The initial slideshow involved the use of javascript functions. (While interesting to learn
 it is more complex and therefore more prone to error than bootstrap carousel).
 
@@ -211,14 +218,13 @@ it is more complex and therefore more prone to error than bootstrap carousel).
 > # User-Stories
 
 ## First-User
-Initial feedback was positive for the purposes of the assignment however requests were made for further content 
-visable on site which has been noted however this will be more realistic upon live users creating content through 
-upload.
+First user navigated the website used all the features available. The user found the content well organised and
+enjoyed the layout on mobile.
 
 ## Second-User
-Second user requested for clearer hero images however again this was due to the portrait orientation of my upload
-which was then edited in a picture editor 'GIMP'. Upon reflection it may have been easier to re-take photographs 
-for the hero section however the functionality was priority over content as site is not live currently.
+Second user provided positive feedback on the carousel hero image and the search bar as intriguing aspects of the 
+website and stated they would use the site upon going live. Second user also stated the website purpose was clearer
+and enjoyed the charitable aspect of the business model. 
 
 ## Developer comments
 The final site will have a working search bar linked to the catalogue, I also wish to encorporate a bidding service
