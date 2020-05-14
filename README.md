@@ -148,36 +148,6 @@ For the project I utilised -
 - [W3schools](https://www.w3schools.com/)
 - Sam's Teach Yourself - HTML, CSS, Javascript
 
-**Neomorphism**
-
-Neomorphism was the initial design concept for the UI. My navigation bar is an ode to this sytle however due to general
-restrictions on my current design capabilities and color scheme this was rolled back. I have provided links below to
-both.
-
-https://uxplanet.org/neumorphism-in-user-interface-tutorial-c353698ac5c0
-
-https://neumorphism.io/#808080
-
-My search bar was insirped by and predominatnly provided by the below -
-
-**Search bar**
-
-https://www.mockplus.com/blog/post/search-bar-design
-
-https://codepen.io/sebastianpopp/pen/myYmmy
-
-
-**Get-Involved Contact-box JS**
-
-https://www.w3schools.com/howto/howto_js_popup_form.asp
-
-
-**MDN**
-
-https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5
-
-
-
 ## Testing
 
 Testing was maintained throughout site development. I used multiple browsers to ensure the site was as 
@@ -199,6 +169,17 @@ Fully functional however it states this must not contain white space. However re
 negative effect of function of website and it is something I am unable to explain after much testing as I am aware only
 only ID attribute can be assigned to div elements..
 
+I have tested the website on a number of different systems as outlined in the development section. I initially 
+tested on a large screen and laptop and mobile. Using the large screen I changed the browser windown size from 
+large to small repeatidly to ensure Media Queries were woring corresctly and to mitigate page repsonse issues.
+Unfortunately desktop screens which I mistakenly assumed would be included were not and caused errors upon my 
+initial submission. This has now been identified and resolved. A further issue I encountered was my catalogue 
+section on IE edge which was setting display to "ms flex wrap" causing the grid system to become unresponsive.
+This was fixed thorugh an update to the CSS however upon running on IE10 the catalogue item comments which 
+should show upon the image flip are not showing this was not a problem on Microsoft Edge. Unfortunately I was 
+unable to remedy the IE10 bug. In the final version of the site the bottom social network links are not live
+as the do not direct currently to related waste not want not sites.
+
 ## Deployment
 
 The site was deployed on Github and code is available to view using this site. 
@@ -213,20 +194,18 @@ section roughly 3/4 of the way down the page. Selected my master branch and my p
 
 Can be achieved by selecting the green highlighted button which states - "Clone or Download" via the 
 webpage: (https://github.com/Karlitoyo/Waste-Not-Want-Not) this will give the option of downloading a .zip file 
-or opening in desktop an option to close using HTTP is also given for cloning and running project locally.
+or opening in desktop an option to close using HTTP is also given for cloning and running project locally. through
+gitpod make use of the git pull function (if required to update the branch) and git clone and then git push to named
+repository.
 
 **Version-Control**
 
-I have tested the website on a number of different systems as outlined in the development section. I initially 
-tested on a large screen and laptop and mobile. Using the large screen I changed the browser windown size from 
-large to small repeatidly to ensure Media Queries were woring corresctly and to mitigate page repsonse issues.
-Unfortunately desktop screens which I mistakenly assumed would be included were not and caused errors upon my 
-initial submission. This has now been identified and resolved. A further issue I encountered was my catalogue 
-section on IE edge which was setting display to "ms flex wrap" causing the grid system to become unresponsive.
-This was fixed thorugh an update to the CSS however upon running on IE10 the catalogue item comments which 
-should show upon the image flip are not showing this was not a problem on Microsoft Edge. Unfortunately I was 
-unable to remedy the IE10 bug. In the final version of the site the bottom social network links are not live
-as the do not direct currently to related waste not want not sites.
+In my initial version I took a sytle from neomorphism as mentioned previously and styled the navigation to work
+within a neomorphism style website. Upon review of the colour scheme and mechanics of the website I re-developed 
+the design using a more bootstrap oriented approach. In the second version (re-design) I too the navigation from
+bootstrap and also the carousel style hero slideshow. This is fundamentally a better design and ease of programming
+is straight forward. The initial slideshow involved the use of javascript functions. (While interesting to learn
+it is more complex and therefore more prone to error than bootstrap carousel).
 
 
 > # User-Stories
@@ -259,3 +238,32 @@ Special thanks must be given to the creators of all the above mentioned sources 
 To create this website, I used many resources, like Stack Overflow, Bootstrap, W3 Schools, the above provided link for
 the search bar, Neomorphism generator (linked above), Sam's Teach Yourself HTML,CSS,JS. My mentor who helped me with many
 queries through the construction of the site and also the slack channel which is a knowledge base in itself.
+
+My search bar was insirped by and predominatnly provided by the below -
+
+**Search bar**
+
+https://www.mockplus.com/blog/post/search-bar-design
+
+https://codepen.io/sebastianpopp/pen/myYmmy
+
+
+**Get-Involved Contact-box JS**
+
+https://www.w3schools.com/howto/howto_js_popup_form.asp
+
+
+**MDN**
+
+https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5
+
+**Neomorphism**
+
+Neomorphism was the initial design concept for the UI. My navigation bar is an ode to this sytle however due to general
+restrictions on my current design capabilities and color scheme this was rolled back. I have provided links below to
+both.
+
+https://uxplanet.org/neumorphism-in-user-interface-tutorial-c353698ac5c0
+
+https://neumorphism.io/#808080
+
