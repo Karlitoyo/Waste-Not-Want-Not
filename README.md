@@ -27,7 +27,7 @@ The website development and purpose has been broken down, into the detailed sect
  * [Deployment](https://github.com/Karlitoyo/Waste-Not-Want-Not#Deployment)
  * [User-Stories](https://github.com/Karlitoyo/Waste-Not-Want-Not#User-Stories)
  * [Credits/Media](https://github.com/Karlitoyo/Waste-Not-Want-Not#Credits/Media)
-    - [Acknowledgements](https://github.com/Karlitoyo/Waste-Not-Want-Not#Acknowledgements)
+ * [Acknowledgements](https://github.com/Karlitoyo/Waste-Not-Want-Not#Acknowledgements)
 
 
   > # UX
