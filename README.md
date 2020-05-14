@@ -230,16 +230,9 @@ catalogue of items as a priority.
 
 > # Credits
 
-Special thanks must be given to the creators of all the above mentioned sources I used to develop 'Waste Not Want Not'.
+Special thanks must be given to the creators of all the above and below mentioned sources I used to develop 'Waste Not Want Not'.
 
-
-> # Acknowledgements
-
-To create this website, I used many resources, like Stack Overflow, Bootstrap, W3 Schools, the above provided link for
-the search bar, Neomorphism generator (linked above), Sam's Teach Yourself HTML,CSS,JS. My mentor who helped me with many
-queries through the construction of the site and also the slack channel which is a knowledge base in itself.
-
-My search bar was insirped by and predominatnly provided by the below -
+My search bar was insirped by and predominantly provided by the below -
 
 **Search bar**
 
@@ -252,6 +245,12 @@ https://codepen.io/sebastianpopp/pen/myYmmy
 
 https://www.w3schools.com/howto/howto_js_popup_form.asp
 
+
+> # Acknowledgements
+
+To create this website, I used many resources, like Stack Overflow, Bootstrap, W3 Schools, the above provided link for
+the search bar, Neomorphism generator (linked above), Sam's Teach Yourself HTML,CSS,JS. My mentor who helped me with many
+queries through the construction of the site and also the slack channel which is a knowledge base in itself.
 
 **MDN**
 
@@ -266,4 +265,3 @@ both.
 https://uxplanet.org/neumorphism-in-user-interface-tutorial-c353698ac5c0
 
 https://neumorphism.io/#808080
-
