@@ -10,25 +10,25 @@ body {
 /*---------------------------------------------------------heading*/
 
 header {
-    margin: 0;
-    padding: 0;
-    border:0;
-    overflow: hidden;
+  margin: 0;
+  padding: 0;
+  border:0;
+  overflow: hidden;
 }
 
 .waste-not {
-    margin: auto;
-    width: 50%;
-    padding-top: 30px;
+  margin: auto;
+  width: 50%;
+  padding-top: 30px;
 }
 
 #logo {
-    font-family: "Courgette", sans-serif;
-    font-weight: 600;
-    font-size: 36px;
-    text-align: center;
-    color: #fafafa;
-    margin-bottom: 20px;
+  font-family: "Courgette", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  text-align: center;
+  color: #fafafa;
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width:2000px) {
@@ -41,95 +41,95 @@ header {
 /*---------------------------------------------------------Search bar from external amended to suit purpose*/
 
 .cntr {
-    display:table;
-    width:100%;
-    height:100%;
-    margin-top: 30px;
+  display:table;
+  width:100%;
+  height:100%;
+  margin-top: 30px;
 }
 .cntr-innr {
-        display:table-cell;
-        text-align:center;
-        vertical-align:middle;
-        color: #ffffff;
+  display:table-cell;
+  text-align:center;
+  vertical-align:middle;
+  color: #ffffff;
 }
 
 .search {
-	display: inline-block;
-	position: relative;
-	height: 35px;
-	width: 35px;
-	box-sizing: border-box;
-	margin: 0px 8px 7px 0px;
-	padding: 7px 9px 0px 9px;
-	border: 3px solid #ffffff;
-	border-radius: 25px;
-	transition: all 200ms ease;
-	cursor: text;
-    text-align:center;
+  display: inline-block;
+  position: relative;
+  height: 35px;
+  width: 35px;
+  box-sizing: border-box;
+  margin: 0px 8px 7px 0px;
+  padding: 7px 9px 0px 9px;
+  border: 3px solid #ffffff;
+  border-radius: 25px;
+  transition: all 200ms ease;
+  cursor: text;
+  text-align:center;
 }
 	
 .search:after {
-		content: "";
-		position: absolute;
-		width: 3px;
-		height: 20px;
-		right: -5px;
-		top: 21px;
-		background: #ffffff;
-		border-radius: 3px;
-		transform: rotate(-45deg);
-		transition: all 200ms ease;
-        text-align:center;
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 20px;
+  right: -5px;
+  top: 21px;
+  background: #ffffff;
+  border-radius: 3px;
+  transform: rotate(-45deg);
+  transition: all 200ms ease;
+  text-align:center;
 }
 	
 .search:active,
 .search:hover {
-		width: 200px;
-		margin-right: 0px;
+  width: 200px;
+  margin-right: 0px;
 }
 		
 .search:after {
-	height: 0px;	
+  height: 0px;	
 }
 
 input {
-		width: 100%;
-		border: none;
-		box-sizing: border-box;
-		font-family: "Inconsolata", sans-serif;
-		font-size: 15px;
-		color: inherit;
-		background: transparent;
-		outline-width: 0px;
-        text-align:center;
-	}
+  width: 100%;
+  border: none;
+  box-sizing: border-box;
+  font-family: "Inconsolata", sans-serif;
+  font-size: 15px;
+  color: inherit;
+  background: transparent;
+  outline-width: 0px;
+  text-align:center;
+}
 
 /*---------------------------------------------------------Home page about section*/
 
 .cntr p {
-    color: #fafafa;
-    font-family: "Courgette", sans-serif;
-    margin-top: 30px;
-    text-align:center;
+  color: #fafafa;
+  font-family: "Courgette", sans-serif;
+  margin-top: 30px;
+  text-align:center;
 }
 
 .cntr h2 {
-    color: #fafafa;
-    font-family: "Courgette", sans-serif;
-    margin-top: 30px;
-    text-align:center;
+  color: #fafafa;
+  font-family: "Courgette", sans-serif;
+  margin-top: 30px;
+  text-align:center;
 }
 
 /*---------------------------------------------------------Form*/
 
 .form-section {
-    clear: both;
-    background: #fafafa;
-    height: 910px;
-    max-width: 900px;
-    position: relative;
-    margin: auto;
-    margin-top: 20px;
+  clear: both;
+  background: #fafafa;
+  height: 910px;
+  max-width: 900px;
+  position: relative;
+  margin: auto;
+  margin-top: 20px;
 }
 
 @media screen and (max-width:500px){
@@ -150,45 +150,45 @@ input {
 /*---------------------------------------------------------Footer*/
 
 footer {
-    height: 150px;
+  height: 150px;
 }
 
 .social-networks {
-    text-align: center;
+  text-align: center;
 }
 
 .social-networks li {
-    display:inline;
+  display:inline;
 }
 
 .social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #343a40;
+  font-size: 160%;
+  margin: 1%;
+  padding: 5%;
+  color: #343a40;
 }
 
 hr {
-    width: 50%;
-    color: #343a40;
-    border-top: .5px solid;
+  width: 50%;
+  color: #343a40;
+  border-top: .5px solid;
 }
 
 /*---------------------------------------------------------Catalogue*/
 
 #photos {
-    clear: both;
-    column-count: 3;
-    padding: 0 4px;
-    float: none;
+  clear: both;
+  column-count: 3;
+  padding: 0 4px;
+  float: none;
 }
 
 #photos img {
-    width: 100%;
+  width: 100%;
 }
 
 .row {
-    display:block;
+  display:block;
 }
 
 /*--------------------------------------------------------- Image flip for Catalogue page, taken from W3 Schools and amended for purpose*/
@@ -233,15 +233,15 @@ hr {
 }
 
 .flip-box-back h3 {
-    text-align: center;
-    font-family: "Sen", sans-serif;
-    font-size: 40px;
+  text-align: center;
+  font-family: "Sen", sans-serif;
+  font-size: 40px;
 }
 
 .flip-box-back p {
-    text-align: center;
-    font-family: "Sen", sans-serif;
-    font-size: 30px;
+  text-align: center;
+  font-family: "Sen", sans-serif;
+  font-size: 30px;
 }
 
 /*---------------------------------------------------------Media Queries for Catalogue responsivness*/
@@ -249,100 +249,100 @@ hr {
 @media screen and (max-width: 1396px) {
 
 .flip-box {
-    height: 520px;
+  height: 520px;
 }
 
 .flip-box-front {
-    height: 250px;
+  height: 250px;
 }
 
 .flip-box-back {
-    height: 200px;
+  height: 200px;
 }
 
 .flip-box-inner {
-    height: 200px;
+  height: 200px;
 }
 }
 
 @media screen and (max-width: 970px) {
 
 .flip-box {
-    height: 420px;
+  height: 420px;
 }
 
 .flip-box-front {
-    height: 100px;
+  height: 100px;
 }
 
 .flip-box-back {
-    height: 100px;
+  height: 100px;
 }
 
 .flip-box-inner {
-    height: 100px;
+  height: 100px;
 }
 }
 
 @media screen and (max-width: 740px) {
 
 .flip-box {
-    height: 290px;
+  height: 290px;
 }
 
 .flip-box-front {
-    height: 100px;
+  height: 100px;
 }
 
 .flip-box-back {
-    height: 100px;
+  height: 100px;
 }
 
 .flip-box-inner {
-    height: 100px;
+  height: 100px;
 }
 }
 
 @media screen and (max-width: 505px) {
     #photos {
-        column-count: 1;
-        max-width: 100%;
+      column-count: 1;
+      max-width: 100%;
     }
 
 .flip-box {
-    height: 500px;
+  height: 500px;
 }
 
 .flip-box-front {
-    height: 100px;
+  height: 100px;
 }
 
 .flip-box-back {
-    height: 100px;
+  height: 100px;
 }
 
 .flip-box-inner {
-    height: 100px;
+  height: 100px;
 }
 
 .flip-box-back h2, p {
-    font-size: 1em;
+  font-size: 1em;
 }
 }
 
 /*---------------------------------------------------------Contact*/
 
 #split {
-    clear: both;
-    height: 50%;
-    position: absolute;
-    overflow-x: hidden;
+  clear: both;
+  height: 50%;
+  position: absolute;
+  overflow-x: hidden;
 }
 
 .centered {
-    left: 50%;
-    text-align: center;
-    padding-top: 20px;
+  left: 50%;
+  text-align: center;
+  padding-top: 20px;
 }
 
 .centered img {
@@ -352,15 +352,15 @@ hr {
 }
 
 .centered p {
-    font-family: "Sen", sans-serif;
-    font-size: 40px;
+  font-family: "Sen", sans-serif;
+  font-size: 40px;
 }
 
 .centered h2 {
-    font-family: "Sen", sans-serif;
-    font-size: 45px;
-    text-decoration: underline;
-    font-weight: 400;
+  font-family: "Sen", sans-serif;
+  font-size: 45px;
+  text-decoration: underline;
+  font-weight: 400;
 }
 
 /*---------------------------------------------------------Js script from extenal however amended to suit purpose*/
